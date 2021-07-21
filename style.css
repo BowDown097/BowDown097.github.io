@@ -1,15 +1,29 @@
-h2
+body
 {
-    color: orange;
+    background-color: #111111;
+    color: white;
+    font-family: "Open Sans", sans-serif;
 }
 
 a
 {
-    color: red;
+    color: #0077aa;
 }
 
-dd,
-p
+a:visited
 {
-    max-width: 850px;
+    color: #5f1a9c;
+}
+
+p, dd, li
+{
+    color: #dddddd;
+}
+
+body
+{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    text-align: left;
 }
